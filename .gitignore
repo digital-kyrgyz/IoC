@@ -343,5 +343,5 @@ healthchecksdb
 #cumtom special file
 
 .vs/IoC/v17/.suo
-IoC/obj/Debug/net6.0/IoC.API.assets.cache
-IoC/obj/Debug/net6.0/IoC.API.csproj.FileListAbsolute.txt
+IoC/obj/Debug/net6.0/IoC.assets.cache
+IoC/obj/Debug/net6.0/IoC.csproj.FileListAbsolute.txt

@@ -8,8 +8,9 @@ namespace IoC
 
         public BL()
         {
-            _dal = new DAL();
+            _dal = Factory.GetDal();
         }
+
         public List<Product> GetProducts()
         {
             return _dal.GetProducts();
