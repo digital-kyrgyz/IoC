@@ -2,7 +2,7 @@ using System;
 
 namespace IoC
 {
-    internal class DAL
+    internal class DAL : IDAL
     {
         public List<Product> GetProducts()
         {
@@ -13,6 +13,10 @@ namespace IoC
                  new Product{Id = 3, Name = "Pencil 3", Price = 100, Stock = 200 },
                  new Product{Id = 4, Name = "Pencil 4", Price = 100, Stock = 200 },
             };
+        }
+        public int Calculate()
+        {
+            return 100;
         }
     }
 }

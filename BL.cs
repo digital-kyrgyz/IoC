@@ -4,7 +4,7 @@ namespace IoC
 {
     class BL
     {
-        private DAL _dal { get; set; }
+        private IDAL _dal { get; set; }
 
         public BL()
         {
