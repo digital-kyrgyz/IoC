@@ -1,6 +1,6 @@
 ﻿using IoC;
 
-BL bl = new BL();
+BL bl = new BL(new DAL());
 
 bl.GetProducts().ForEach(x =>
 {

@@ -6,9 +6,9 @@ namespace IoC
     {
         private IDAL _dal { get; set; }
 
-        public BL()
+        public BL(IDAL dal)
         {
-            _dal = Factory.GetDal();
+            _dal = dal;
         }
 
         public List<Product> GetProducts()
